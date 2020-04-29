@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/defaultLightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default Light" />
+
+    <Button
+        android:id="@+id/defaultDarkBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default Dark" />
+
+    <Button
+        android:id="@+id/holoLightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holo Light" />
+
+    <Button
+        android:id="@+id/holoDarkBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holo Dark" />
+
+    <Button
+        android:id="@+id/TraditionalBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traditional" />
+</LinearLayout>
