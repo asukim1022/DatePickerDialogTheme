@@ -111,7 +111,7 @@ public class MainActivity extends Activity {
         }
 
         public void onDateSet(DatePicker view, int year, int month, int day) {
-            //선택한 날짜
+            //선택한 날짜 출력
         }
     }
 
